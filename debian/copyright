@@ -1,6 +1,6 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: adaptation-samsung-gts7xlwifi
-Source: https://github.com/mukahraman/adaptation-samsung-gts7xlwifi
+Upstream-Name: adaptation-samsung-r8q
+Source: https://github.com/ben443/adaptation-samsung-r8q
 
 Files: *
 Copyright: 2023 Peter Cai <peter@typeblog.net>

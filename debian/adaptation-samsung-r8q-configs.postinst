@@ -1,0 +1,15 @@
+#!/bin/sh
+# Enable sensorfwd so the phone's accelerometer is available for auto-rotation.
+set -e
+
+case "$1" in
+    configure)
+        if [ -d /run/systemd/system ]; then
+            systemctl enable sensorfwd.service >/dev/null 2>&1 || true
+        fi
+    ;;
+esac
+
+#DEBHELPER#
+
+exit 0

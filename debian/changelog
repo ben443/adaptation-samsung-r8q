@@ -1,3 +1,12 @@
+adaptation-samsung-r8q (0.0.11) trixie; urgency=medium
+
+  * Adapt the package for Samsung Galaxy S20 FE 5G (r8q), using the Halium
+    API-30 / Android 11 phone runtime.
+  * Replace tablet-specific display, touch, stylus, camera, Bluetooth, Wi-Fi,
+    and suspend settings with phone-appropriate defaults.
+
+ -- Mustafa Kahraman <mkahraman341@gmail.com>  Mon, 05 Oct 2026 07:44:00 +0000
+
 adaptation-samsung-gts7xlwifi (0.0.10) trixie; urgency=medium
 
   * Bluetooth: pin adapter Class of Device to Computer/Laptop (0x00010c) via
