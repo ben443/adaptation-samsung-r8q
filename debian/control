@@ -1,28 +1,27 @@
-Source: adaptation-samsung-gts7xlwifi
+Source: adaptation-samsung-r8q
 Maintainer: Mustafa Kahraman <mkahraman341@gmail.com>
 Section: metapackages
 Priority: optional
 Build-Depends: debhelper (>= 10)
 Standards-Version: 4.5.0.3
-Vcs-Browser: https://github.com/mukahraman/adaptation-samsung-gts7xlwifi
-Vcs-Git: https://github.com/mukahraman/adaptation-samsung-gts7xlwifi.git
+Vcs-Browser: https://github.com/ben443/adaptation-samsung-r8q
+Vcs-Git: https://github.com/ben443/adaptation-samsung-r8q.git
 
-Package: adaptation-samsung-gts7xlwifi
+Package: adaptation-samsung-r8q
 Architecture: all
 Depends: ${misc:Depends},
-         linux-bootimage-samsung-gts7xlwifi,
+         linux-bootimage-samsung-r8q,
          adaptation-hybris-api30-phone,
-         adaptation-samsung-gts7xlwifi-configs,
-Description: adaptation-samsung-gts7xlwifi - meta
- Samsung Galaxy Tab S7+ Wi-Fi (SM-T970, codename gts7xlwifi) api30
- adaptation metapackage. Depends on the kernel bootimage, the Halium
- hybris API-30 phone runtime, and this device's adaptation configs.
+         adaptation-samsung-r8q-configs,
+Description: adaptation-samsung-r8q - meta
+ Samsung Galaxy S20 FE 5G (SM-G781, codename r8q) adaptation metapackage.
+ Depends on the kernel bootimage, the Halium API-30 phone runtime, and this
+ device's adaptation configs.
 
-Package: adaptation-samsung-gts7xlwifi-configs
+Package: adaptation-samsung-r8q-configs
 Architecture: all
 Depends: ${misc:Depends},
-Description: Samsung Galaxy Tab S7+ Wi-Fi (gts7xlwifi)'s specific adaptation configs
+Description: Samsung Galaxy S20 FE 5G (r8q) specific adaptation configs
  Device-specific configuration files (udev rules, phosh compositor settings,
- device flag files, hwcomposer/audio glue) for the Samsung Galaxy Tab S7+
- Wi-Fi (gts7xlwifi) running Droidian on top of a Halium-12 / Android-11
- vendor partition.
+ device flag files, hwcomposer/audio glue) for the Samsung Galaxy S20 FE 5G
+ (r8q) running Droidian with Halium 11 / Android 11 (API 30).

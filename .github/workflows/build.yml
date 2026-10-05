@@ -55,8 +55,8 @@ jobs:
         apt-ftparchive packages . > Packages
         gzip -9c Packages > Packages.gz
         cat > apt-ftparchive.conf <<'EOF'
-        APT::FTPArchive::Release::Origin "mukahraman/adaptation-samsung-gts7xlwifi";
-        APT::FTPArchive::Release::Label  "mukahraman/adaptation-samsung-gts7xlwifi";
+        APT::FTPArchive::Release::Origin "ben443/adaptation-samsung-r8q";
+        APT::FTPArchive::Release::Label  "ben443/adaptation-samsung-r8q";
         APT::FTPArchive::Release::Suite  "trixie";
         APT::FTPArchive::Release::Codename "trixie";
         APT::FTPArchive::Release::Architectures "arm64 all";
